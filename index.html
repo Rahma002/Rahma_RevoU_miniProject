@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mini Project Assignment</title>
+  <link rel="stylesheet" href="CSS/style.css">
+  <script type="text/javascript" src="Javascript/script.js"></script>
+</head>
+<body>
+
+  <section>
+      <div class="nav-bar">
+          <h1>Katik <span>Kalkulator Matematik</span></h1>
+      </div>
+  </section>
+
+  <header class="header">
+          <h2>Welcome to Katik</h2>
+          <p class="welcome">Hai Sobat.. Selamat datang di katik :]
+          </br>Sebuah web apps sederhana yang 
+          berfungsi untuk menghitung nilai luas dan keliling persegi</p>
+  </header>
+  
+  <main class="main">
+      <div class="luasPersegi">
+        <h3>Luas Persegi</h3>
+        <img src="Asset/Square.png" alt="Persegi">
+        <p class="describe">Rumus Luas Persegi : </p>
+        <p class="rumus">L = S * S</p>
+        <p class="describe">Dimana : <br>L = Luas <br> S = Sisi </p>
+      </div>
+      <div class="kelPersegi">
+        <h3>Keliling Persegi</h3>
+        <img src="Asset/Square.png" alt="Persegi">
+        <p class="describe">Rumus Keliling Persegi : </p>
+        <p class="rumus">K = 4 * S</p>
+        <p class="describe">Dimana : <br>K = Keliling <br> S = Sisi </p>
+      </div>
+  </main>
+
+  <section class="perhitungan">
+      <div class="inputSection">
+        <h3>Hitung Luas dan Keliling Persegi</h3>
+        <input for="sisiPersegi" id="sisiPersegi" type="number" 
+        placeholder="Sisi persegi" name="sisiPersegi"/>
+        <p class="result">Luas Persegi: <input type="text" id="Luas" name="Luas"/></p>
+        <p class="result">Keliling Persegi: <input type="text" id="Kel" name="Kel"/></p>
+      </div>
+      <button type="submit" id="btnHitung" value="Hitung" 
+      onclick="hitung();">Hitung</button>
+      <button type="reset" id="btnReset" onclick="javascript:reset();">
+        Reset</button>
+  </section>
+
+  <footer class="footer">
+    <p>Made with ❤ by Rahmawati</p>
+  </footer>
+
+</body>
+</html>

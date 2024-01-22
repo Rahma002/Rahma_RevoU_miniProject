@@ -1,0 +1,162 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ddd;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-bar {
+  background-color: rgb(35, 58, 102);
+  color: white;
+  box-shadow: 1px 1px 3px black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+}
+
+section h1 {
+  font-family: Georgia;
+  text-align: center;
+  padding: 10px;
+  height: 20px;
+  line-height: 20px;
+}
+
+section h1 span {
+  font-size: 0.9rem;
+  color: rgb(206, 196, 196);
+}
+
+header {
+  margin: 50px 10px 0 10px;
+  padding: 10px;
+  border: 0.2px solid #ddd;
+  border-radius: 3px;
+  background-color: rgb(137, 181, 196);
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  margin: 0 10px;
+  background-color: rgb(137, 181, 196);
+  border-radius: 3px;
+}
+
+main h3 {
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(35, 58, 102);
+  color: white;
+}
+
+.luasPersegi, .kelPersegi {
+  border: 0.4px solid #ddd;
+  width: 50%;
+}
+
+main img {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.describe {
+  padding: 10px;
+}
+
+.rumus {
+  text-align: center;
+  font-weight: bold;
+}
+
+section, .inputSection {
+  display: flex;
+  flex-direction: column;
+}
+
+section h3 {
+  text-align: center;
+  margin: 10px;
+}
+
+.inputSection {
+  width: 50%;
+  margin: auto;
+}
+
+.result {
+  font-weight: bold;
+  padding-top: 3px;
+}
+
+#sisiPersegi, #Luas, #Kel {
+  height: 20px;
+  margin: 3px;
+  width: 100%;
+}
+
+button {
+  width: 60px;
+  padding: 5px;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+#btnHitung {
+  background-color: rgb(35, 58, 102);
+  color: white;
+  margin: 10px auto;
+}
+
+#btnHitung:active {
+  background-color: green;
+}
+
+#btnReset {
+  background-color: orange;
+  margin-right: 30px;
+  margin-left: auto;
+}
+
+#btnReset:active {
+  background-color: green;
+}
+
+footer {
+  background-color: rgb(35, 58, 102);
+  padding: 2px;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* Mobile Phone */
+@media (max-width: 576px) {
+  main {
+    flex-direction: column;
+  }
+
+  .luasPersegi, .kelPersegi {
+  width: 100%;
+}
+
+  header {
+    font-size: 0.7rem;
+  }
+
+  .perhitungan h3 {
+    font-size: 1.1rem;
+  }
+}
+
+
+
+
+
+
